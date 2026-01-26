@@ -1,0 +1,11 @@
+transformers
+torch
+spacy
+openai
+pydantic
+pydantic-settings
+python-dotenv
+numpy
+scikit-learn
+redis
+pytest
