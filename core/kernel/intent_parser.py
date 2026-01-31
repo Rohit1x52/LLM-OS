@@ -1,5 +1,5 @@
 from typing import Dict, List, Any, Optional
-from core.models.intent_model import IntentModel
+from core.model.intent_model import IntentModel
 from core.kernel.action_taxonomy import ActionTaxonomy, ActionCategory
 from utils.logger import get_logger
 import re
