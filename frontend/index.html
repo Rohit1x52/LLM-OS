@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM-OS - Week 1 Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 LLM-OS - Natural Language Kernel</h1>
+            <p>Week 1: Core NLP Pipeline Demo</p>
+        </header>
+
+        <div class="chat-container">
+            <div id="messages"></div>
+        </div>
+
+        <div class="input-container">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Try: 'send email to john@example.com with summary of file.pdf'"
+                autofocus
+            />
+            <button id="sendBtn">Process</button>
+        </div>
+
+        <div class="examples">
+            <p>Try these examples:</p>
+            <button class="example-btn" data-text="send email to john@example.com with summary of file.pdf and schedule a meeting">Complex compound request</button>
+            <button class="example-btn" data-text="download report.pdf and analyze it">Simple compound</button>
+            <button class="example-btn" data-text="send it to them">Ambiguous request</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
