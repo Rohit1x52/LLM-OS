@@ -6,7 +6,7 @@ from utils.logger import get_logger
 
 
 class SQLiteStore:
-    def __init__(self, db_path: str = "ln-os.db"):
+    def __init__(self, db_path: str = "llm-os.db"):
         self.db_path = db_path
         self.logger = get_logger(__name__)
     
